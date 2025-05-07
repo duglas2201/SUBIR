@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios De JavaScritp</title>
+</head>
+<body>
+
+    <h1 style="text-align: center;">Ejemplo de Ejercicios en JavaScritp</h1>
+    <script>
+        // Declaración de variables
+        let nombre = "Douglas";
+        let edad = 20;
+        let esEstudiante = true;
+        
+        // Mostrar valores en la consola
+        console.log("Nombre:", nombre);
+        console.log("Edad:", edad);
+        console.log("¿Es estudiante?:", esEstudiante);
+
+        //Mostrar en pantalla 
+        document.write("Nombre: " + nombre + "<br>");
+        document.write("Edad: " + edad + "<br>");
+        document.write("¿Es estudiante?: " + esEstudiante + "Verdadero" +"<br>"+"<br>");
+
+        // Cambiar los valores
+        nombre = "Sergio";
+        edad = 25;
+        esEstudiante = false;
+
+        //Cambiar valores, mostrados 
+        document.write("<strong>Cambiar los valores:</strong>"+"<br>");
+        document.write("Nombre: " + nombre + "<br>");
+        document.write("Edad: " + edad + "<br>");
+        document.write("¿Es estudiante?: " + esEstudiante + "Falso" +"<br>"+"<br>");
+
+        // Mostrar los nuevos valores
+        console.log("Nuevo nombre:", nombre);
+        console.log("Nueva edad:", edad);
+        console.log("¿Ahora es estudiante?:", esEstudiante); 
+
+        // Declarar dos variables numéricas
+        let a = 23;
+        let b = 7;
+
+        // Operaciones matemáticas
+        console.log("Suma: a + b =", a + b);
+        console.log("Resta: a - b =", a - b);
+        console.log("Multiplicación: a * b =", a * b);
+        console.log("División: a / b =", a / b);
+
+        //Mostar en Pantalla
+        document.write("<strong>Operaciones matemáticas</strong>"+"<br>");
+        document.write("a = " + a + ", b = " + b + "<br>");
+        document.write("Suma: " + (a + b) + "<br>");
+        document.write("Resta: " + (a - b) + "<br>");
+        document.write("Multiplicación: " + (a * b) + "<br>");
+        document.write("División: " + (a / b) + "<br>"+ "<br>");
+
+        // Comparaciones
+        console.log("a == b:", a == b);     // Igualdad
+        console.log("a != b:", a != b);     // Desigualdad - Direferente de 
+        console.log("a > b:", a > b);       // Mayor que
+        console.log("a < b:", a < b);       // Menor que
+        console.log("a >= b:", a >= b);     // Mayor o igual que
+        console.log("a <= b:", a <= b);     // Menor o igual que
+
+        //Mostar en Pantalla
+        document.write("<strong>Comparaciones</strong>"+"<br>")
+        document.write("a == b: " + (a == b) + "<br>");
+        document.write("a != b: " + (a != b) + "<br>");
+        document.write("a > b: " + (a > b) + "<br>");
+        document.write("a < b: " + (a < b) + "<br>");
+        document.write("a >= b: " + (a >= b) + "<br>");
+        document.write("a <= b: " + (a <= b) + "<br>"+"<br>");
+
+        // Declarar dos variables booleanas
+        let esMayorDeEdad = true;
+        let tieneLicencia = true;
+
+        // Usar operadores lógicos para determinar si puede conducir
+        let puedeConducir = esMayorDeEdad && tieneLicencia;
+        console.log("¿Puede conducir?", puedeConducir);
+
+        //Mostrar Mensajes logicos
+        document.write("<strong> Lógicos </strong>"+"<br>");
+        document.write("¿Es mayor de edad?: " + esMayorDeEdad + "<br>");
+        document.write("¿Tiene licencia?: " + tieneLicencia + "<br>");
+        document.write("¿Puede conducir?: " + puedeConducir + "<br>"+"<br>");
+
+        // Concatenación de strings
+        let Nombre = "Douglas";
+        let mensaje1 = "Hola " + Nombre + ", bienvenido al sistema.";
+        console.log(mensaje1);
+
+        // Template literals 
+        let mensaje2 = `Hola ${Nombre}, bienvenido al sistema.`;
+        console.log(mensaje2);
+
+        //Mensaje 
+        document.write("<strong> Mensajes </strong>"+"<br>");
+        document.write("<br>" + mensaje1 + "<br>");
+        document.write(mensaje2 + "<br>");
+    </script>
+    
+</body>
+</html>
